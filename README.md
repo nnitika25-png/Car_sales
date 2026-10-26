@@ -36,13 +36,13 @@ This creates the virtual environment in the folder .venv and installs all requir
 
 ## Technologies and libraries used
 
-Python 3.13 : Programming language.
-uv : Package manager for Python.
-Jupyter Notebook : Interactive development environment.
-Pandas : Data analysis and manipulation.
-NumPy : Numerical calculations.
-Matplotlib & Seaborn : Data visualization.
-kagglehub : Simplified downloading of Kaggle records.
+- **Python 3.13** - Programming language
+- **uv** - Package manager for Python
+- **Jupyter Notebook** - Interactive development environment
+- **Pandas** - Data analysis and manipulation
+- **NumPy** - Numerical calculations
+- **Matplotlib & Seaborn** - Data visualization
+- **kagglehub** - Simplified downloading of Kaggle datasets
 
 ## execution
 
