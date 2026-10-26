@@ -1,40 +1,55 @@
 
-# [Car Sales Prediction] 🚀
+# Car Sales Prediction 🚀
 
-> Designed and implemented a car sales prediction model in Python, leveraging machine learning algorithms to predict vehicle prices and support data-driven decision-making.
+> Designed and implemented a car sales prediction model in Python, leveraging machine learning algorithms to predict vehicle prices and support data-driven decision-making.This includes data acquisition, data preprocessing, exploratory data analysis and modeling. 
 
-## 📊 Projektübersicht
+## 📊 Project Overview
 
-**Problemstellung:** 
-<!-- Beschreibe das Problem, das du lösen möchtest -->
+**Problem statement:** 
+<!-- Describe the problem you want to solve. -->
 
-**Ziel:** 
-<!-- Was ist das Hauptziel deines Projekts? -->
+**Goal:** 
+<!-- What is the main goal of your project? -->
 
-**Methoden:** 
-<!-- Welche Techniken/Algorithmen verwendest du? -->
+**Methods:** 
+<!-- Which techniques/algorithms are you using? -->
 
 
 
 ## Setup
 
-Klone das Repository
+### 1.Clone the repository
 ```bash
-# Repository klonen
-git clone [DEIN-REPO-LINK]
-cd [REPO-NAME]
+# Clone the Repository
+git clone https://github.com/nnitika25-png/Car_sales
+cd Car_sales
 ```
 
-Installiere [uv](https://uv.dev) (falls noch nicht installiert) und synchronisiere die Abhängigkeiten
+### 2. Setting up a virtual environment
+Install [uv](https://uv.dev)  and synchronize the dependencies.
 ```bash
-# Dependencies installieren
+# Install Dependencies
 uv sync
 ```
+This creates the virtual environment in the folder .venv and installs all required packages according to pyproject.toml.
 
-### Ausführung
 
-Notebooks in dieser Reihenfolge ausführen:
+## Technologies and libraries used
+
+Python 3.13 : Programming language.
+uv : Package manager for Python.
+Jupyter Notebook : Interactive development environment.
+Pandas : Data analysis and manipulation.
+NumPy : Numerical calculations.
+Matplotlib & Seaborn : Data visualization.
+kagglehub : Simplified downloading of Kaggle records.
+
+## execution
+
+Run notebooks in this order:
+
 1. notebooks/01_exploration.ipynb
+
 <!--
 2. notebooks/02_preprocessing.ipynb
 3. notebooks/03_modeling.ipynb
