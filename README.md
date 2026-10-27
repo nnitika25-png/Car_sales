@@ -1,19 +1,23 @@
 
 # Car Sales Prediction 🚀
 
-> Designed and implemented a car sales prediction model in Python, leveraging machine learning algorithms to predict vehicle prices and support data-driven decision-making.This includes data acquisition, data preprocessing, exploratory data analysis and modeling. 
+> Developed a car sales analysis and prediction project in Python to identify the vehicle characteristics that influence sales performance. The project includes data cleaning, preprocessing, exploratory data analysis (EDA), feature engineering, and machine learning modeling to predict car sales and support data-driven business decisions.
 
 ## 📊 Project Overview
 
 **Problem statement:** 
-<!-- Describe the problem you want to solve. -->
+ Car manufacturers need to understand which vehicle characteristics influence sales performance. This project analyzes car sales data to identify the features that contribute to higher sales.
 
 **Goal:** 
-<!-- What is the main goal of your project? -->
+ Identify the vehicle characteristics that have the greatest impact on sales performance and build a model to predict car sales.
 
 **Methods:** 
-<!-- Which techniques/algorithms are you using? -->
-
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Correlation Analysis
+- Feature Engineering
+- Linear Regression
 
 
 ## Setup
@@ -49,9 +53,8 @@ This creates the virtual environment in the folder .venv and installs all requir
 Run notebooks in this order:
 
 1. notebooks/01_exploration.ipynb
-
-<!--
 2. notebooks/02_preprocessing.ipynb
+<!--
 3. notebooks/03_modeling.ipynb
 4. notebooks/04_results.ipynb
 -->
