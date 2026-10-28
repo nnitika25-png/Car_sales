@@ -54,8 +54,9 @@ Run notebooks in this order:
 
 1. notebooks/01_exploration.ipynb
 2. notebooks/02_preprocessing.ipynb
-<!--
 3. notebooks/03_modeling.ipynb
+<!--
+
 4. notebooks/04_results.ipynb
 -->
 
