@@ -131,8 +131,6 @@ Car_sales/
 │   ├── raw/                    # Raw source data
 │   └── processed/              # Cleaned and transformed datasets
 │
-├── docs/                       # Documentation and supporting materials
-│
 ├── notebooks/
 │   ├── 01_exploration.ipynb                    # Initial data exploration
 │   ├── 02_preprocessing.ipynb                 # Data cleaning and preprocessing
@@ -151,6 +149,52 @@ Car_sales/
 ├── .python-version
 └── README.md
 ```
+---
+
+## 📁 Dataset
+
+**Source:** Kaggle Car Sales Dataset
+
+The dataset contains vehicle-related information such as:
+
+- Manufacturer
+- Model
+- Vehicle Type
+- Price
+- Resale Value
+- Engine Size
+- Horsepower
+- Fuel Efficiency
+- Vehicle Dimensions
+- Sales Performance
+
+Target Variable:
+
+- `Sales_in_thousands`
+---
+
+## 🤖 Regression Model Results
+
+A Multiple Linear Regression model was developed to examine the relationship between vehicle characteristics and sales performance.
+
+### Final Predictors
+- Price_in_thousands
+- Wheelbase
+
+### Model Performance
+
+| Metric | Value |
+|----------|----------|
+| R² | 0.247 |
+| Adjusted R² | 0.237 |
+
+### Insights
+
+- Price has a negative impact on sales.
+- Wheelbase has a positive impact on sales.
+- The model explains approximately 25% of the variation in vehicle sales.
+- Additional factors beyond vehicle specifications likely influence sales performance.
+
 ---
 
 ## 📈 Key Findings
@@ -196,7 +240,3 @@ Potential enhancements to this project include:
 ## 👤 Author
 
 **Nitika Abrol**
-
-Aspiring Data Analyst with a background in Business Intelligence, Data Warehousing, SQL, Python, and Power BI.
-
-GitHub: [nnitika25-png](https://github.com/nnitika25-png)
