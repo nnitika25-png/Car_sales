@@ -37,24 +37,6 @@ The project follows a structured data analytics workflow:
 - Model Evaluation
 - Business Insights and Recommendations
 
-### Key Findings
-
-- Vehicle price and wheelbase were identified as the strongest predictors of sales.
-- Higher-priced vehicles generally achieve lower sales volumes.
-- Vehicles with larger wheelbases tend to achieve higher sales volumes.
-- Budget vehicles outperform premium vehicles in average sales performance.
-- A small number of vehicle models contribute significantly to overall market sales.
-
-### Business Impact
-
-The findings can help automotive manufacturers:
-
-- Develop more effective pricing strategies.
-- Design vehicles that better align with customer preferences.
-- Identify high-demand vehicle segments.
-- Support data-driven product development and portfolio management decisions.
-
-
 ## ⚙️ Setup
 
 ### 1. Clone the Repository
@@ -75,21 +57,6 @@ Install **uv** from [uv.dev](https://uv.dev) and synchronize the project depende
 ```bash
 uv sync
 ```
-
-This command:
-
-- Creates a virtual environment (`.venv`)
-- Installs all required dependencies
-- Reproduces the project environment from `pyproject.toml`
-
-### 3. Launch Jupyter Notebook
-
-```bash
-uv run jupyter notebook
-```
-
-Open and run the notebooks in the recommended order.
-
 ---
 
 ## 🛠️ Technologies and Libraries
@@ -103,7 +70,6 @@ Open and run the notebooks in the recommended order.
 ### Data Processing
 
 - **Pandas** – Data cleaning, manipulation, and analysis
-- **NumPy** – Numerical and mathematical operations
 
 ### Data Visualization
 
@@ -191,38 +157,12 @@ Car_sales/
 
 The analysis revealed several important insights about vehicle sales performance:
 
-- Lower-priced vehicles generally achieve higher sales volumes.
-- Vehicles with larger wheelbases tend to achieve higher sales.
-- Budget vehicles outperform Premium vehicles in terms of average sales.
-- Vehicle sales are concentrated among a small number of manufacturers and vehicle models.
+- Vehicle price and wheelbase were identified as the strongest predictors of sales.
+- Higher-priced vehicles generally achieve lower sales volumes.
+- Vehicles with larger wheelbases tend to achieve higher sales volumes.
+- Budget vehicles outperform premium vehicles in average sales performance.
+- A small number of vehicle models contribute significantly to overall market sales.
 - Ford dominates the market, with multiple models appearing among the top-selling vehicles.
-- Vehicle price and wheelbase were identified as the most significant predictors of sales.
-
----
-
-## 🤖 Regression Model Results
-
-A Multiple Linear Regression model was developed to examine the relationship between vehicle characteristics and sales performance.
-
-### Final Predictors
-- Price_in_thousands
-- Wheelbase
-
-### Model Performance
-
-| Metric | Value |
-|----------|----------|
-| R² | 0.247 |
-| Adjusted R² | 0.237 |
-
-### Insights
-
-- Price has a negative impact on sales.
-- Wheelbase has a positive impact on sales.
-- The model explains approximately 25% of the variation in vehicle sales.
-- Additional factors beyond vehicle specifications likely influence sales performance.
-
----
 
 ## 💼 Business Recommendations
 
@@ -234,21 +174,15 @@ Focus on competitively priced vehicles, as lower-priced vehicles consistently ac
 ### Product Design
 Consider offering larger vehicles, as larger wheelbase segments demonstrate stronger sales performance.
 
-### Product Portfolio
-Invest in vehicle segments and models with demonstrated market demand and strong historical sales.
+### Balance Price and Vehicle Features
+Offer spacious vehicles at competitive price points to maximize both customer appeal and sales performance.
 
-### Future Analysis
-Include additional factors such as marketing spend, customer demographics, economic indicators, and brand perception to improve future sales forecasts.
+### Focus on High-Demand Product Segments
+Identify and invest in vehicle segments with proven market demand while regularly reviewing underperforming products.
 
----
+### Improve Future Sales Forecasting
+Incorporate variables such as brand reputation, marketing activities, customer preferences, and economic conditions in future analyses to improve prediction accuracy.
 
-## ⚠️ Limitations
-
-- The dataset does not contain marketing, economic, or customer demographic information.
-- The model considers only a limited number of predictors.
-- Sales performance may also be influenced by factors not included in the dataset.
-
----
 
 ## 🚀 Future Improvements
 
@@ -256,9 +190,7 @@ Potential enhancements to this project include:
 
 - Testing advanced machine learning models such as Random Forest and XGBoost.
 - Including external economic and market data.
-- Building an interactive dashboard using Power BI or Streamlit.
-- Comparing multiple prediction models and evaluation metrics.
-
+- Building an interactive dashboard using Power BI.
 ---
 
 ## 👤 Author
