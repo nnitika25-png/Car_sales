@@ -37,6 +37,11 @@ The project follows a structured data analytics workflow:
 - Model Evaluation
 - Business Insights and Recommendations
 
+## 🎥 Project Presentation
+
+📑 Presentation Slides:
+[View Presentation](https://github.com/nnitika25-png/Car_sales/blob/main/docs/Car_prediction.pdf)
+
 ## ⚙️ Setup
 
 ### 1. Clone the Repository
@@ -131,6 +136,8 @@ Car_sales/
 │   ├── raw/                    # Raw source data
 │   └── processed/              # Cleaned and transformed datasets
 │
+├── docs/
+│   └── Car_Sales_Presentation.pdf
 ├── notebooks/
 │   ├── 01_exploration.ipynb                    # Initial data exploration
 │   ├── 02_preprocessing.ipynb                 # Data cleaning and preprocessing
