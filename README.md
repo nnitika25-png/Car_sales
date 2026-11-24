@@ -40,7 +40,7 @@ The project follows a structured data analytics workflow:
 ## 🎥 Project Presentation
 
 📑 Presentation Slides:
-[View Presentation](https://github.com/nnitika25-png/Car_sales/blob/main/docs/Car_prediction.pdf)
+[View Presentation](https://github.com/nnitika25-png/Car_sales/blob/main/docs/Car_Sales_prediction.pdf)
 
 ## ⚙️ Setup
 
